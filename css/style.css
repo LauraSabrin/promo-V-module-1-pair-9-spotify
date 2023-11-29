@@ -9,19 +9,25 @@
 }
 
 .header_1 {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     background-color: black;
+    height: 50px;
 }
 
 .logo {
-    width: 100px;
+    width: 130px;
+    height: 80%;
 }
 
-.menu_icono
-    { 
-}
 
-.menu_listado {
-    width: px;
+
+.dancer {
+    height: 600px;
+    background-color: rgb(122, 122, 224);
+    display: flex;
+    /* background-image: url(../IMAGES/premium_dancer.png); */
+    /* background-repeat: no-repeat; */
+
+ 
 }
-/*  */
