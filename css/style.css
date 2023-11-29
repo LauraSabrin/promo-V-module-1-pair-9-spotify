@@ -4,8 +4,14 @@
     padding: 0;
 }
 
+:root {
+    --dancer-color: white;
+
+}
+
 .html {
     font-size: 62.5%;
+    
 }
 
 .header_1 {
@@ -24,10 +30,10 @@
     height: 600px;
     background-color: rgb(122, 122, 224);
     display: flex;
+    color: var(--dancer-color)
     /* background-image: url(../IMAGES/premium_dancer.png); */
     /* background-repeat: no-repeat; */
 
- 
 }
 
 .menu_icono {
