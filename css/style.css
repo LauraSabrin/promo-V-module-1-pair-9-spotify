@@ -5,14 +5,12 @@
 }
 
 :root {
+    font-size: 62.5%; 
     --dancer-color: white;
-
+    --padding-all: 1rem;
+    font-family: Roboto;
 }
 
-.html {
-    font-size: 62.5%;
-    
-}
 
 .header_1 {
     display: flex;
@@ -30,9 +28,12 @@
     height: 600px;
     background-color: rgb(122, 122, 224);
     display: flex;
-    color: var(--dancer-color)
-    /* background-image: url(../IMAGES/premium_dancer.png); */
-    /* background-repeat: no-repeat; */
+    flex-direction: column;
+    color: var(--dancer-color);
+    padding-left: var(--padding-all);
+    padding-right: var(--padding-all);
+    background-image: url('./IMAGES/premium_dancer.png');
+    background-repeat: no-repeat;
 
 }
 
@@ -41,3 +42,7 @@
     width: 50px;
 }
 
+.premium {
+    padding-left: var(--padding-all);
+    padding-right: var(--padding-all);
+}
