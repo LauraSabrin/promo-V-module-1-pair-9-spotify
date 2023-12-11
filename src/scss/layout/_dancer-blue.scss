@@ -1,0 +1,14 @@
+
+.dancer {
+    height: 600px;
+    background-color: rgb(122, 122, 224);
+    display: flex;
+    flex-direction: column;
+    color: $dancer-color;
+    padding-left: $padding-all;
+    padding-right: $padding-all;
+    background-image: url('../images/premium_dancer.png');
+    background-repeat: no-repeat;
+
+}
+

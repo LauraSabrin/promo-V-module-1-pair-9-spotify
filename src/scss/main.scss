@@ -1,57 +1,11 @@
 @import 'core/variables';
 @import 'core/reset';
-@import 'components/code';
-@import 'components/links';
-@import 'layout/page';
 @import 'layout/header';
+@import 'layout/dancer-blue';
+@import 'layout/premium-white';
+@import 'layout/benefits';
 @import 'layout/footer';
-@import 'pages/index';
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-:root {
-    font-size: 62.5%; 
-    --dancer-color: white;
-    --padding-all: 1rem;
-    font-family: Roboto;
-}
 
 
-.header_1 {
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-    height: 50px;
-}
 
-.logo {
-    width: 130px;
-    height: 80%;
-}
 
-.dancer {
-    height: 600px;
-    background-color: rgb(122, 122, 224);
-    display: flex;
-    flex-direction: column;
-    color: var(--dancer-color);
-    padding-left: var(--padding-all);
-    padding-right: var(--padding-all);
-    background-image: url('../images/premium_dancer.png');
-    background-repeat: no-repeat;
-
-}
-
-.menu_icono {
-    height: 50px;
-    width: 50px;
-}
-
-.premium {
-    padding-left: var(--padding-all);
-    padding-right: var(--padding-all);
-}
