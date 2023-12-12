@@ -1,0 +1,20 @@
+
+
+.article {
+    &__title {
+    grid-column: 2/3;
+    grid-row: span 2;
+    width: 75%;
+    }
+   
+  
+}
+.figure {
+  
+&__imagen {
+    width: 50px;
+    height: 50px;
+    grid-column: 1/2;
+    grid-row: auto;
+}
+}

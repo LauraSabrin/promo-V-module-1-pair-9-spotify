@@ -1,4 +1,10 @@
 .premium {
     padding-left: $padding-all;
     padding-right: $padding-all;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-rows:repeat(8, 1fr);
+    background-color: lightcoral;
+    border: 2px solid black;
+    
 }
